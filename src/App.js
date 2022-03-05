@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import image from "./images/image-equilibrium.jpg";
+import avatar from "./images/image-avatar.png";
+import ethereum from "./images/icon-ethereum.svg";
+import clock from "./images/icon-clock.svg";
+import view from "./images/icon-view.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <main>
+        <article className="main-image">
+          <img src={image} alt="" />
+          <div>
+            <img src={view} alt="" />
+          </div>
+        </article>
+        <article>
+          <h2>Equilibrium #3429</h2>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <ul>
+            <li>
+              <img src={ethereum} alt="" /> 0.041 ETH
+            </li>
+            <li>
+              <img src={clock} alt="" /> 3 days left
+            </li>
+          </ul>
+        </article>
+        <article className="avatar">
+          <img src={avatar} alt="" />
+          <p>
+            Creation of <span>Jules Wyvern</span>
+          </p>
+        </article>
+      </main>
+      <div className="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
         </a>
-      </header>
-    </div>
+        . Coded by <a href="#">Mustafa Faqiry</a>.
+      </div>
+    </>
   );
 }
-
 export default App;
