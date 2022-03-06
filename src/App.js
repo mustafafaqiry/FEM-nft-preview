@@ -39,7 +39,8 @@ function App() {
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Mustafa Faqiry</a>.
+        . Coded by <a href="https://github.com/mustafafaqiry">Mustafa Faqiry</a>
+        .
       </div>
     </>
   );
